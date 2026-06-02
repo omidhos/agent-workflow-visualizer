@@ -1,0 +1,55 @@
+{
+  "name": "agent-workflow-visualizer",
+  "version": "0.1.0",
+  "description": "A reusable premium React/Next.js component for visualizing long-running AI agent workflows.",
+  "author": "Codex",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./agent-workflow-visualizer": "./src/components/agent-workflow-visualizer/index.ts"
+  },
+  "files": [
+    "src/index.ts",
+    "src/components/agent-workflow-visualizer",
+    "src/lib/utils.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "check": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "latest",
+    "clsx": "latest",
+    "framer-motion": "latest",
+    "lucide-react": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwind-merge": "latest",
+    "tailwindcss": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  },
+  "keywords": [
+    "ai-agent",
+    "workflow",
+    "loading",
+    "nextjs",
+    "react",
+    "framer-motion",
+    "tailwindcss"
+  ]
+}
